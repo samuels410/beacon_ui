@@ -68,7 +68,7 @@
                       <div class="course-content">
                       <em class="label-a label-offset orange" rel="tooltip" data-original-title="Orientation courses are entry-level courses in each of our Paths.">Analytics</em>
                       <!-- <em class="label-b">Free Course</em> -->
-                      <a href="coursedetail.php"><h3 class="course-name">Data Analytics</h3>
+                      <a href="#"><h3 class="course-name">Data Analytics</h3>
                       <p class="course-desc">Learn the basic building blocks of Data Analysis.</p>
                       </a></div>
                       </div>
@@ -85,7 +85,7 @@
                       <div class="course-content">
                       <em class="label-a label-offset green" rel="tooltip" data-original-title="Orientation courses are entry-level courses in each of our Paths.">Finance</em>
                       <!-- <em class="label-b">Free Course</em> -->
-                      <a href="coursedetail.php"><h3 class="course-name">Finance Management</h3>
+                      <a href="#"><h3 class="course-name">Finance Management</h3>
                       <p class="course-desc">Learn the basic building blocks of Finance.</p>
                       </a></div>
                       </div>
@@ -102,7 +102,7 @@
                       <div class="course-content">
                       <em class="label-a label-offset violate" rel="tooltip" data-original-title="Orientation courses are entry-level courses in each of our Paths.">Operation</em>
                       <!-- <em class="label-b">Free Course</em> -->
-                      <a href="coursedetail.php"><h3 class="course-name">Operation</h3>
+                      <a href="#"><h3 class="course-name">Operation</h3>
                       <p class="course-desc">Learn the basic building blocks of Operations.</p>
                       </a></div>
                       </div>
@@ -119,7 +119,7 @@
                       <div class="course-content">
                       <em class="label-a label-offset blue" rel="tooltip" data-original-title="Orientation courses are entry-level courses in each of our Paths.">Marketing</em>
                       <!-- <em class="label-b">Free Course</em> -->
-                      <a href="coursedetail.php"><h3 class="course-name">Marketing</h3>
+                      <a href="#"><h3 class="course-name">Marketing</h3>
                       <p class="course-desc">Learn the basic building blocks of Marketing.</p>
                       </a></div>
                       </div>
@@ -128,9 +128,11 @@
               </div>
 
               <div align="center">
-                <a href="courselibrary.php"><span class="browsemore" align="center">
+                <!-- <a href="courselibrary.php"><span class="browsemore" align="center">
                   Browser More Courses
-                </span></a>
+                </span></a> -->
+                <%= link_to "Browse More Courses", courses_path, :class => "browsemore" %>
+
               </div>
       </div>
     </div>

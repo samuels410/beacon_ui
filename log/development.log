@@ -19810,3 +19810,5 @@ Processing by ScreensController#home as HTML
   Rendered layouts/_signup_popup.html.erb (10.0ms)
   Rendered layouts/_footer.html.erb (0.0ms)
 Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
